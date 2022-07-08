@@ -1,0 +1,281 @@
+/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    display: block;
+}
+
+body {
+    margin: 120px;
+    font-family: Poppins;
+}
+
+nav {
+    background-color: #004A7C;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    background-color: #3388ff;
+    transition: .5s;
+    color: #FF900E;
+    text-decoration: none;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: #FF900E;
+    transition: .5s;
+}
+
+
+.hero {
+    text-align: left;
+    padding-top: 8em;
+    padding-bottom: 3em;
+}
+
+.subhead {
+    font-weight: bold;
+    color: #004A7C;
+}
+
+h1 {
+    font-size: 150%;
+    line-height: 1.3em;
+    margin-top: .2em;
+    color: #004A7C;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hero-desc {
+    padding-top: 2em;
+}
+
+.hero-cta {
+    padding-top: 3em;
+}
+
+.primary-cta {
+    background: #004A7C;
+    color: white;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-style: solid;
+    border-radius: 5em;
+    border-width: 1px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.primary-cta:hover {
+    text-decoration: none;
+    color: #FF900E;
+    transition: .5s;
+}
+
+.seeprojects-cta {
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-style: solid;
+    border-radius: 5em;
+    border-width: 1px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.seeprojects-cta:hover {
+    text-decoration: none;
+    color: #FF900E;
+    transition: .5s;
+}
+
+.hero-img {
+    width: 20em;
+    height: 20em;
+}
+
+.about-me {
+    padding-bottom: 8em;
+    text-align: justify;
+}
+
+.aboutme-main {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5em;
+}
+
+.card-body {
+    flex: auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    box-shadow: 0 4px 8px 0 #7592A6, 0 6px 20px 0 #7592A6;
+    text-align: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: 50%/100% 100% no-repeat;
+}
+
+.projects {
+    padding-bottom: 3em;
+}
+
+.skills {
+    padding-bottom: 5em;
+}
+
+.project-item {
+    padding-bottom: 2em;
+}
+
+.d-block{
+    height: 30em;
+    width: 30em;
+}
+
+.contact {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.carousel {
+    padding-bottom: 2em;
+}
+
+.experience-main {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5em;
+}
+
+.contact-main {
+    border-style: solid;
+    border-width: 1px;
+    padding: 5em;
+}
+
+.view {
+    background: #004A7C;
+    color: white;
+    text-decoration: none;
+    padding: .6em;
+    font-size: 1.4em;
+    border-style: solid;
+    border-radius: 1em;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.view:hover {
+    text-decoration: none;
+    color: #FF900E;
+    transition: .5s;
+}
+
+#gotop {
+    float: right;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #004A7C;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .p-5 {
+        padding:1rem!important
+    }
+    .mb-5 {
+        margin-bottom:5rem!important
+    }
+    nav ul {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #main {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #main {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #main {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #main {
+        margin-right: 30%;
+        margin-left: 30%;
+    }
+}
