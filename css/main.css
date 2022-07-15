@@ -246,6 +246,11 @@ h2 {
     nav ul {
         display: none;
     }
+    .hero-img {
+        width: 10em;
+        height: 10em;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
